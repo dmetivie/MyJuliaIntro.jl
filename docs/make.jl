@@ -1,6 +1,11 @@
 # From https://github.com/KristofferC/DigiWellSeminarieJulia/blob/master/MyPackage/docs/make.jl
+import Pkg
+Pkg.add("Documenter")
+using Documenter
+push!(LOAD_PATH,"../")
 push!(LOAD_PATH,"../src/")
-using Documenter, MyJuliaIntro
+using MyJuliaIntro
+
 const liveserver = "liveserver" in ARGS
 
 if liveserver
