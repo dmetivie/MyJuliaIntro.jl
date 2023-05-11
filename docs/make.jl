@@ -10,6 +10,7 @@ end
 
 makedocs(
     sitename = "My Introduction to Julia",
+    authors = "David Métivier",
     pages = Any[
         "First things first" => "index.md",
         "Get Started" => "GetStarted.md",
