@@ -20,5 +20,12 @@ makedocs(
 )
 
 deploydocs(
-    repo = "https://dmetivie.github.io/MyJuliaIntro.jl/",
+    repo = "https://dmetivie.github.io/MyJuliaIntro.jl",
+    target = "build",
+    branch = "gh-pages",
+    versions = ["stable" => "v^", "v#.#" ],
 )
+
+# deploydocs(
+#     repo = "https://dmetivie.github.io/MyJuliaIntro.jl/",
+# )
