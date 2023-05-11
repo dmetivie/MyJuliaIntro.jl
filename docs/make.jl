@@ -9,7 +9,7 @@ if liveserver
 end
 
 makedocs(
-    sitename = "My Julia Intro",
+    sitename = "My Introduction to Julia",
     pages = Any[
         "First things first" => "index.md",
         "Get Started" => "GetStarted.md",
