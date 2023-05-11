@@ -20,5 +20,4 @@ makedocs(
 
 deploydocs(
     repo = "https://dmetivie.github.io/MyJuliaIntro.jl/",
-    versions = nothing
 )
