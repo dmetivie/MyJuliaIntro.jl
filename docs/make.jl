@@ -1,6 +1,6 @@
 # From https://github.com/KristofferC/DigiWellSeminarieJulia/blob/master/MyPackage/docs/make.jl
+push!(LOAD_PATH,"../src/")
 using Documenter, MyJuliaIntro
-
 const liveserver = "liveserver" in ARGS
 
 if liveserver
