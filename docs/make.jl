@@ -5,7 +5,8 @@ push!(LOAD_PATH,"../src/")
 makedocs(
     sitename = "MyJuliaIntro",
     pages = [
-        "First things first" => "index.md"
+        "First things first" => "index.md",
+        "Get Started" => "GetStarted.md",
     ],
     format = Documenter.HTML(prettyurls = false),
 )
